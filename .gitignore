@@ -1,0 +1,9 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.env
+
+# NOTE: *-snapshots/ folders are intentionally NOT ignored.
+# Baseline screenshots must be committed to git so that CI
+# and other developers compare against the same reference images.

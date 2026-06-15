@@ -1,0 +1,17 @@
+{
+  "name": "visual-regression-suite",
+  "version": "1.0.0",
+  "description": "Playwright visual regression test suite using screenshot comparison, written in JavaScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:update-snapshots": "playwright test --update-snapshots",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "javascript", "visual-regression", "screenshot-testing", "automation"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
